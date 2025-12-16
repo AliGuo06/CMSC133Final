@@ -29,6 +29,7 @@ Tools and techniques used:
 I mainly used print debugging and JUnit tests to identify and fix issues. Writing small tests helped confirm that fixes worked correctly.
 
 Tests:
+
   @Test
     public void testAddAndRemoveItem() {
         Item item = new Item("Book", "Stationery", 2, 1);
